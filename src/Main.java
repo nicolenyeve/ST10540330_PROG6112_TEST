@@ -1,0 +1,14 @@
+//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+void main() {
+    Scanner scanner = new Scanner(System.in);
+    System.out.println("Enter console type :  ");
+    String AccidentVechileType =scanner.nextLine();
+    System.out.println("Enter the store name : ");
+    String City=scanner.nextLine();
+    System.out.println("Enter the total number of sales : ");
+    int AccidentTotal=scanner.nextInt() ;
+
+    Reports totalSalesReports=new Store(ConsoleType,Store,totalSales);
+    totalSalesReports.printTotalSalesReport();
+}
