@@ -3,11 +3,11 @@ public class Store extends totalSales {
         super(ConsoleType, Store, SalesTotal);
     }
     @Override
-    public void printAccidentReport(){
+    public void printSALESReport(){
 
         System.out.println(" console type :"+ getConsoleType());
         System.out.println("store"+ getStore());
-        System.out.println("Accident Total:" + getTotalSales());
+        System.out.println("SALESTotal:" + getTotalSales());
         }
     }
 
