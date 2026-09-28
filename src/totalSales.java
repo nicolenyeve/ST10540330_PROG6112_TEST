@@ -11,7 +11,7 @@ public abstract class totalSales implements ConsoleType {
 
     @Override
     public String getConsoleType() {
-        return AccidentVechileType;
+        return CONSOLEType;
     }
 
     @Override
