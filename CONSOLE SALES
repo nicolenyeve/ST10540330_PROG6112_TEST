@@ -1,0 +1,36 @@
+static void main() {
+
+
+String [] cities= {"CpeTown","Port Elizabeth"," pretoria"};
+int[][] sales = new int[3][2];
+
+
+Scanner input = new Scanner(System.in);
+for (int i=0;i<sales.length; i++){
+    System.out.print("Enter the number of sales for each city"+ cities[i]+":");
+    sales[i][0]= input.nextInt();
+
+    System.out.print("Enter the number of PS5 sales for"+ cities[i]+ ":");
+    sales[i][1]= input.nextInt();{
+        System.out.print("\n GAMING CONSOLE REPORT");
+        System.out.printf("%-15s,%-10,%10s%n";"City","PS5","XBOX","SWITCH");
+
+        for (int i =0 ; i < sales.length,i++){
+        System.out.printf("%-15s,%-10d,%-d,%n",cities[i],sales[i][0],sales[i][1]);
+        }
+        int[] totals = new int[3];
+        System.out.print("\n CONSOLE SALES TOTALS FOR EACH CITY");
+        for (int i =0 ; i< sales.length; i++){
+            totals[i]= sales [i][0]+ sales[i][1];
+            System.out.print("%-15s,%d,%n"cities[i],totals[i]);
+            }
+    int maxIndex =0;
+        for (int i=1;i< totals.length; i++);
+        if (totals[i]>totals(maxIndex)){
+            maxIndex= i;
+        }
+
+
+        }
+        System.out.print("\n CITY WITH THE MOST SALES :"+cities(maxIndex));
+}
